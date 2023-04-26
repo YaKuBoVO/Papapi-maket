@@ -15,3 +15,9 @@ elOpenBtn.addEventListener('click', function () {
       count = 0;
    }
 } )
+
+
+AOS.init({
+   disable: 'phone',
+   once: true
+});

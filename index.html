@@ -7,14 +7,16 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    <link rel="stylesheet" href="style/style.css">
-   <!--<link rel="stylesheet" href="style/col.css">-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
    <title>PapIpi-Maket</title>
 </head>
 
 <body>
-   
 
-  <!-- header -->
+
+   <!-- header -->
    <header id="header">
       <div class="container">
          <div class="ro">
@@ -43,49 +45,57 @@
             </div>
          </div>
       </div>
+
       <section id="hero">
-      <div class="hero-content content">
-         <div class="container">
-            <div class="row middle between center hero-row">
-               <div class="hero-info">
-                  <h1 class="hero-title">
-                     Start building with our APIs for absolutely free.
-                  </h1>
-                  <form class="hero-form form">
-                     <input class="form-input" type="email" placeholder="Enter email address" name="email">
-                     <button class="form-btn btn" type="submit" >Schedule a Demo</button>
-                     <span class="form-span">Have any questions? <a class="form-link" href="#!">Contact Us</a></span>
-                  </form>
-               </div>
-               <div class="hero-imgbox">
-                  <img class="hero-img" src="./imgs/phone.svg" alt="phone">
+         <div class="hero-content content">
+            <div class="container">
+               <div class="row middle between center hero-row">
+                  <div class="hero-info" data-aos="fade-down-right">
+                     <h1 class="hero-title">
+                        Start building with our APIs for absolutely free.
+                     </h1>
+                     <form class="hero-form form">
+                        <input class="form-input" type="email" placeholder="Enter email address" name="email">
+                        <button class="form-btn btn" type="submit">Schedule a Demo</button>
+                        <span class="form-span">Have any questions? <a class="form-link" href="#!">Contact Us</a></span>
+                     </form>
+                  </div>
+                  <div class="hero-imgbox"  data-aos="fade-down-left">
+                     <img class="hero-img" src="./imgs/phone.svg" alt="phone">
+                  </div>
                </div>
             </div>
          </div>
-      </div>
-   </section>
+      </section>
    </header>
    <!-- the end header -->
 
 
-   
+
    <!-- START PARTNER -->
    <section id="partner">
       <div class="container">
          <div class="partner-content">
             <div class="partner-info">
                <h3 class="partner-title">Who we work with</h3>
-               <p>Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
+               <p>Today, millions of people around the world have successfully connected their accounts to apps they
+                  love using our API. We provide developers with the tools they need to create easy and accessible
+                  experiences for their users. </p>
                <button class="partner-btn"><a href="#!">About Us</a></button>
             </div>
             <div class="partner-logo">
-               <ul class="partner-list">
-                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/tesla.svg" alt="tesla"></a></li>
-                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/Microsoft.svg" alt="Microsoft"></a></li>
+               <ul class="partner-list" data-aos="zoom-in-down">
+                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/tesla.svg" alt="tesla"></a>
+                  </li>
+                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/Microsoft.svg"
+                           alt="Microsoft"></a></li>
                   <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/hp.svg" alt="hp"></a></li>
-                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/oracle.svg" alt="oracle"></a></li>
-                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/google.svg" alt="google"></a></li>
-                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/nvidia.svg" alt="nvidia"></a></li>
+                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/oracle.svg"
+                           alt="oracle"></a></li>
+                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/google.svg"
+                           alt="google"></a></li>
+                  <li class="partner-item"><a href="#!"><img class="partner-logo" src="imgs/nvidia.svg"
+                           alt="nvidia"></a></li>
                </ul>
             </div>
          </div>
@@ -98,14 +108,15 @@
       <section id="js-code">
          <div class="container">
             <div class="row jscode__row">
-               <div class="jscode-content">
+               <div class="jscode-content" data-aos="flip-up">
                   <img src="imgs/js-code.svg" alt="js-code">
                </div>
                <div class="js-info">
                   <h3 class="jscode-title">
                      Easy to implement
                   </h3>
-                  <p>Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.</p>
+                  <p>Our API comes with just a few lines of code. You’ll be up and running in no time. We built our
+                     documentation page to integrate payments functionality with ease.</p>
                </div>
             </div>
          </div>
@@ -116,17 +127,18 @@
          <div class="container">
             <div class="row phone-row">
                <div class="phone-content">
-               <h4 class="phone-title">
-                  Simple UI & UX
-               </h4>
-               <p>Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
-            </div>
-            <div class="phone-imgbox">
-               <div class="row colmn-gap">
-               <img src="imgs/phone-left.svg" alt="ios">
-               <img src="imgs/phone-rigth.svg" alt="ios">
-            </div>
-            </div>
+                  <h4 class="phone-title">
+                     Simple UI & UX
+                  </h4>
+                  <p>Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to
+                     optimize conversion. </p>
+               </div>
+               <div class="phone-imgbox">
+                  <div class="row colmn-gap" data-aos="fade-down-left">
+                     <img src="imgs/phone-left.svg" alt="ios">
+                     <img src="imgs/phone-rigth.svg" alt="ios">
+                  </div>
+               </div>
             </div>
          </div>
       </section>
@@ -136,40 +148,43 @@
          <div class="container">
             <div class="row finances-content">
                <div class="finances-info">
-                  <img class="analiz-img" src="imgs/mani.svg" alt="mani">
+                  <img class="analiz-img" data-aos="zoom-in-up" src="imgs/mani.svg" alt="mani">
                   <h3 class="finances-title">
                      Personal Finances
                   </h3>
-                  <p>Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
+                  <p>Consolidate financial data from multiple sources and categorize transactions up to 2 years of
+                     history. Analyze reports to reconcile activities in your account. </p>
                </div>
 
                <div class="finances-info">
-                  <img class="analiz-img" src="imgs/setting.svg" alt="analiz">
+                  <img class="analiz-img" data-aos="zoom-in-up" src="imgs/setting.svg" alt="analiz">
                   <h3 class="finances-title">
                      Banking & Coverage
                   </h3>
-                  <p>With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+                  <p>With our platform, you can speed up account onboarding and support ongoing payments for checking,
+                     savings, credit card, and brokerage accounts.</p>
                </div>
 
                <div class="finances-info">
-                  <img class="analiz-img" src="imgs/karta.svg" alt="carta">
+                  <img class="analiz-img" data-aos="zoom-in-up" src="imgs/karta.svg" alt="carta">
                   <h3 class="finances-title">
                      Consumer Payments
                   </h3>
-                  <p>It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+                  <p>It’s easier to set up secure bank payments with us through a flow designed with the user experience
+                     in mind. Customers could instantly authenticate their account.</p>
                </div>
             </div>
 
             <div class="analiz-button">
                <div class="row analiz-row">
-               <h2 class="analiz-heading">
-                  Ready to start?
-               </h2>
-               <form class="hero-form form">
-                  <input class="form-input" type="email" placeholder="Enter email address" name="email">
-                  <button class="form-btn btn" type="submit" >Schedule a Demo</button>
-               </form>
-            </div>
+                  <h2 class="analiz-heading">
+                     Ready to start?
+                  </h2>
+                  <form class="hero-form form">
+                     <input class="form-input" type="email" placeholder="Enter email address" name="email">
+                     <button class="form-btn btn" type="submit">Schedule a Demo</button>
+                  </form>
+               </div>
             </div>
          </div>
       </section>
@@ -178,13 +193,14 @@
    <footer id="footer">
       <div class="container">
          <div class="row align-center">
-            <ul class="footer-list row">
-               <li class="footer-item"><a href="#!"><img class="footer-logo" src="imgs/footer-logo.svg" alt="logo"></a></li>
+            <ul class="footer-list row" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">
+               <li class="footer-item"><a href="#!"><img class="footer-logo" src="imgs/footer-logo.svg" alt="logo"></a>
+               </li>
                <li class="footer-item"><a href="#!">Pricing</a></li>
                <li class="footer-item"><a href="#!">About</a></li>
                <li class="footer-item"><a href="#!">Contact</a></li>
             </ul>
-            <ul class="logo-list row">
+            <ul class="logo-list row" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">
                <li class="logo-item"><a href="#!"><i class='bx bxl-facebook'></i></a></li>
                <li class="logo-item"><a href="#!"><i class='bx bxl-twitter'></i></a></li>
                <li class="logo-item"><a href="#!"><i class='bx bxl-linkedin'></i></a></li>
@@ -193,6 +209,11 @@
       </div>
    </footer>
    <!-- THE END MAIN -->
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="./app.js"></script>
 </body>
 
